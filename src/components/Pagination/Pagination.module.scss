@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  justify-content: center;
+  li {
+    a {
+      font-size: 24px;
+      background-color: rgba(255, 255, 255, 0);
+      // box-shadow: 0px 3px 50px #d12244;
+      color: #d12245a2;
+      padding: 13px 30px;
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+        color: rgb(25, 25, 25);
+        background-color: #d1224581;
+        box-shadow: 0px 3px 50px #d12244;
+        // transition: box-shadow 5s ease-in-out;
+        transition: background-color 0.8s ease-in-out;
+        transition: color 0.1s ease-in-out;
+      }
+    }
+  }
+  :global {
+    .selected {
+      a {
+        color: rgb(25, 25, 25);
+        font-weight: 800;
+        background-color: #d12244;
+        box-shadow: 0px 3px 50px #d12244;
+        // transition: box-shadow 5s ease-in-out;
+        transition: background-color 0.8s ease-in-out;
+        transition: color 0.1s ease-in-out;
+      }
+    }
+  }
+}

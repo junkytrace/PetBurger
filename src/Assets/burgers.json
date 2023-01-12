@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/gribnoi.png",
+    "title": "Грибной Бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 350,
+    "category": 4,
+    "rating": 5
+  },
+  {
+    "id": 1,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/samyi-vkusnyi.png",
+    "title": "Ангус Бургер Спешл",
+    "types": ["Традиционная булка", "Ржаной хлеб"],
+    "sizes": ["1 котлета", "2 котлеты", "3 котлеты"],
+    "price": 650,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2022/01/sait-spaisi-burger.png",
+    "title": "Спайси Бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 450,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/barbekju.png",
+    "title": "BBQ Бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 450,
+    "category": 1,
+    "rating": 2
+  },
+  {
+    "id": 4,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/gavaiskii.png",
+    "title": "Гавайский Бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 450,
+    "category": 5,
+    "rating": 3
+  },
+  {
+    "id": 5,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/slou.png",
+    "title": "БлюЧиз Бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 450,
+    "category": 5,
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2020/09/vip.png",
+    "title": "Разорвись Бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб", "Булка с пармезаном"],
+    "sizes": ["2 котлета", "3 котлеты"],
+    "price": 700,
+    "category": 2,
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2020/05/novyi-sait-gam.png",
+    "title": "Гамбургер",
+    "types": ["Традиционная булка", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 200,
+    "category": 3,
+    "rating": 2
+  },
+  {
+    "id": 8,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2020/02/novyi-sait-chiz.png",
+    "title": "Чизбургер",
+    "types": ["Традиционная булка", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 200,
+    "category": 3,
+    "rating": 2
+  },
+  {
+    "id": 9,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/italjanskii.png",
+    "title": "Итальянский бургер",
+    "types": ["Традиционная булка", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты"],
+    "price": 300,
+    "category": 4,
+    "rating": 3
+  },
+  {
+    "id": 10,
+    "image": "https://blackstarburger.ru/wp-content/uploads/2021/07/klassika.png",
+    "title": "Классический ангус бургер",
+    "types": ["Традиционная булка", "Ржаной хлеб", "Булка с пармезаном"],
+    "sizes": ["1 котлета", "2 котлеты", "3 котлеты"],
+    "price": 400,
+    "category": 2,
+    "rating": 4
+  }
+]

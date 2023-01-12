@@ -1,0 +1,41 @@
+@import "../variables";
+
+.categories {
+  ul {
+    display: flex;
+
+    li {
+      background-color: rgba(255, 255, 255, 0);
+      // box-shadow: 0px 3px 50px #d12244;
+      color: #d12245a2;
+      padding: 13px 30px;
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      @include noselect();
+
+      &:hover {
+        color: rgb(25, 25, 25);
+        background-color: #d1224581;
+        box-shadow: 0px 3px 50px #d12244;
+        // transition: box-shadow 5s ease-in-out;
+        transition: background-color 0.8s ease-in-out;
+        transition: color 0.1s ease-in-out;
+      }
+
+      &:active {
+        box-shadow: 0px 3px 50px #d12244;
+        transition: box-shadow 0.3s ease-in-out;
+      }
+
+      &.active {
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 0px 3px 50px #d12244;
+        background-color: #d12244;
+        color: rgb(25, 25, 25);
+        font-weight: bold;
+      }
+    }
+  }
+}
